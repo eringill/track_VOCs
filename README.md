@@ -1,7 +1,7 @@
 track_VOCs
 ==========
 
-## Methods to calculate case numbers in each region of Canada over a given period and to plot cases / new cases of VOC B.1.1.7 
+## Methods to calculate COVID-19 case numbers in each region of Canada over a given period and to plot cases / new cases of VOC B.1.1.7 
 
 ### Motivation
 The plots and data generated from these scripts are used to prepare weekly reports for the Canadian VOC leadership table
