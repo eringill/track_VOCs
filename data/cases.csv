@@ -1,45 +1,211 @@
-﻿prov,total,week
-Alberta,3510,21-03-2021
-British Columbia,4027,21-03-2021
-Manitoba,609,21-03-2021
-New Brunswick,20,21-03-2021
-Newfoundland and Labrador,2,21-03-2021
-Nova Scotia,18,21-03-2021
-Ontario,10768,21-03-2021
-Prince Edward Island,5,21-03-2021
-Quebec,4747,21-03-2021
-Saskatchewan,1020,21-03-2021
-Canada,24726,21-03-2021
-Alberta,4406,28-03-2021
-British Columbia,5478,28-03-2021
-Manitoba,570,28-03-2021
-New Brunswick,87,28-03-2021
-Newfoundland and Labrador,2,28-03-2021
-Nova Scotia,23,28-03-2021
-Ontario,14266,28-03-2021
-Prince Edward Island,8,28-03-2021
-Quebec,5972,28-03-2021
-Saskatchewan,1394,28-03-2021
-Canada,32206,28-03-2021
-Alberta,6854,05-04-2021
-British Columbia,7502,05-04-2021
-Manitoba,565,05-04-2021
-New Brunswick,85,05-04-2021
-Newfoundland and Labrador,4,05-04-2021
-Nova Scotia,30,05-04-2021
-Ontario,21397,05-04-2021
-Prince Edward Island,4,05-04-2021
-Quebec,9053,05-04-2021
-Saskatchewan,1732,05-04-2021
-Canada,47226,05-04-2021
-Alberta,7708,12-04-2021
-British Columbia,4620,12-04-2021
-Manitoba,726,12-04-2021
-New Brunswick,60,12-04-2021
-Newfoundland and Labrador,9,12-04-2021
-Nova Scotia,27,12-04-2021
-Ontario,22071,12-04-2021
-Prince Edward Island,2,12-04-2021
-Quebec,9019,12-04-2021
-Saskatchewan,1542,12-04-2021
-Canada,45784,12-04-2021
+date,region,week_cases
+2021-03-21,Alberta,3510.0
+2021-03-21,British Columbia,4027.0
+2021-03-21,Canada,24738.0
+2021-03-21,Manitoba,609.0
+2021-03-21,New Brunswick,20.0
+2021-03-21,Newfoundland and Labrador,2.0
+2021-03-21,Northwest Territories,0.0
+2021-03-21,Nova Scotia,18.0
+2021-03-21,Nunavut,12.0
+2021-03-21,Ontario,10768.0
+2021-03-21,Prince Edward Island,5.0
+2021-03-21,Quebec,4747.0
+2021-03-21,Saskatchewan,1020.0
+2021-03-21,Yukon,0.0
+2021-03-28,Alberta,4406.0
+2021-03-28,British Columbia,5478.0
+2021-03-28,Canada,32207.0
+2021-03-28,Manitoba,570.0
+2021-03-28,New Brunswick,87.0
+2021-03-28,Newfoundland and Labrador,2.0
+2021-03-28,Northwest Territories,0.0
+2021-03-28,Nova Scotia,23.0
+2021-03-28,Nunavut,0.0
+2021-03-28,Ontario,14266.0
+2021-03-28,Prince Edward Island,8.0
+2021-03-28,Quebec,5972.0
+2021-03-28,Saskatchewan,1394.0
+2021-03-28,Yukon,1.0
+2021-04-05,Alberta,6309.0
+2021-04-05,British Columbia,6725.0
+2021-04-05,Canada,42654.0
+2021-04-05,Manitoba,512.0
+2021-04-05,New Brunswick,75.0
+2021-04-05,Newfoundland and Labrador,4.0
+2021-04-05,Northwest Territories,1.0
+2021-04-05,Nova Scotia,30.0
+2021-04-05,Nunavut,0.0
+2021-04-05,Ontario,19303.0
+2021-04-05,Prince Edward Island,4.0
+2021-04-05,Quebec,8162.0
+2021-04-05,Saskatchewan,1528.0
+2021-04-05,Yukon,1.0
+2021-04-12,Alberta,8844.0
+2021-04-12,British Columbia,7909.0
+2021-04-12,Canada,56641.0
+2021-04-12,Manitoba,837.0
+2021-04-12,New Brunswick,70.0
+2021-04-12,Newfoundland and Labrador,10.0
+2021-04-12,Northwest Territories,0.0
+2021-04-12,Nova Scotia,34.0
+2021-04-12,Nunavut,0.0
+2021-04-12,Ontario,26472.0
+2021-04-12,Prince Edward Island,5.0
+2021-04-12,Quebec,10618.0
+2021-04-12,Saskatchewan,1841.0
+2021-04-12,Yukon,1.0
+2021-04-19,Alberta,10148.0
+2021-04-19,British Columbia,7211.0
+2021-04-19,Canada,60753.0
+2021-04-19,Manitoba,935.0
+2021-04-19,New Brunswick,65.0
+2021-04-19,Newfoundland and Labrador,16.0
+2021-04-19,Northwest Territories,0.0
+2021-04-19,Nova Scotia,47.0
+2021-04-19,Nunavut,28.0
+2021-04-19,Ontario,30433.0
+2021-04-19,Prince Edward Island,8.0
+2021-04-19,Quebec,10062.0
+2021-04-19,Saskatchewan,1798.0
+2021-04-19,Yukon,2.0
+2021-04-26,Alberta,11115.0
+2021-04-26,British Columbia,6209.0
+2021-04-26,Canada,56150.0
+2021-04-26,Manitoba,1548.0
+2021-04-26,New Brunswick,61.0
+2021-04-26,Newfoundland and Labrador,16.0
+2021-04-26,Northwest Territories,8.0
+2021-04-26,Nova Scotia,297.0
+2021-04-26,Nunavut,41.0
+2021-04-26,Ontario,27419.0
+2021-04-26,Prince Edward Island,4.0
+2021-04-26,Quebec,7653.0
+2021-04-26,Saskatchewan,1775.0
+2021-04-26,Yukon,4.0
+2021-05-03,Alberta,13609.0
+2021-05-03,British Columbia,5407.0
+2021-05-03,Canada,55344.0
+2021-05-03,Manitoba,1716.0
+2021-05-03,New Brunswick,96.0
+2021-05-03,Newfoundland and Labrador,42.0
+2021-05-03,Northwest Territories,8.0
+2021-05-03,Nova Scotia,735.0
+2021-05-03,Nunavut,64.0
+2021-05-03,Ontario,25040.0
+2021-05-03,Prince Edward Island,5.0
+2021-05-03,Quebec,6981.0
+2021-05-03,Saskatchewan,1640.0
+2021-05-03,Yukon,1.0
+2021-05-10,Alberta,13477.0
+2021-05-10,British Columbia,4452.0
+2021-05-10,Canada,50938.0
+2021-05-10,Manitoba,2927.0
+2021-05-10,New Brunswick,59.0
+2021-05-10,Newfoundland and Labrador,37.0
+2021-05-10,Northwest Territories,43.0
+2021-05-10,Nova Scotia,1180.0
+2021-05-10,Nunavut,44.0
+2021-05-10,Ontario,21118.0
+2021-05-10,Prince Edward Island,5.0
+2021-05-10,Quebec,6118.0
+2021-05-10,Saskatchewan,1478.0
+2021-05-10,Yukon,0.0
+2021-05-17,Alberta,9295.0
+2021-05-17,British Columbia,3556.0
+2021-05-17,Canada,39907.0
+2021-05-17,Manitoba,3128.0
+2021-05-17,New Brunswick,60.0
+2021-05-17,Newfoundland and Labrador,62.0
+2021-05-17,Northwest Territories,19.0
+2021-05-17,Nova Scotia,793.0
+2021-05-17,Nunavut,52.0
+2021-05-17,Ontario,16467.0
+2021-05-17,Prince Edward Island,5.0
+2021-05-17,Quebec,5051.0
+2021-05-17,Saskatchewan,1417.0
+2021-05-17,Yukon,2.0
+2021-05-24,Alberta,4965.0
+2021-05-24,British Columbia,2683.0
+2021-05-24,Canada,28904.0
+2021-05-24,Manitoba,3209.0
+2021-05-24,New Brunswick,71.0
+2021-05-24,Newfoundland and Labrador,55.0
+2021-05-24,Northwest Territories,6.0
+2021-05-24,Nova Scotia,508.0
+2021-05-24,Nunavut,15.0
+2021-05-24,Ontario,12425.0
+2021-05-24,Prince Edward Island,8.0
+2021-05-24,Quebec,3962.0
+2021-05-24,Saskatchewan,997.0
+2021-05-24,Yukon,0.0
+2021-05-31,Alberta,2862.0
+2021-05-31,British Columbia,1942.0
+2021-05-31,Canada,18563.0
+2021-05-31,Manitoba,2297.0
+2021-05-31,New Brunswick,66.0
+2021-05-31,Newfoundland and Labrador,53.0
+2021-05-31,Northwest Territories,1.0
+2021-05-31,Nova Scotia,232.0
+2021-05-31,Nunavut,9.0
+2021-05-31,Ontario,7548.0
+2021-05-31,Prince Edward Island,4.0
+2021-05-31,Quebec,2510.0
+2021-05-31,Saskatchewan,1039.0
+2021-05-31,Yukon,0.0
+2021-06-07,Alberta,1810.0
+2021-06-07,British Columbia,1241.0
+2021-06-07,Canada,12569.0
+2021-06-07,Manitoba,1832.0
+2021-06-07,New Brunswick,56.0
+2021-06-07,Newfoundland and Labrador,43.0
+2021-06-07,Northwest Territories,0.0
+2021-06-07,Nova Scotia,113.0
+2021-06-07,Nunavut,1.0
+2021-06-07,Ontario,5148.0
+2021-06-07,Prince Edward Island,2.0
+2021-06-07,Quebec,1641.0
+2021-06-07,Saskatchewan,679.0
+2021-06-07,Yukon,3.0
+2021-06-14,Alberta,1259.0
+2021-06-14,British Columbia,923.0
+2021-06-14,Canada,9142.0
+2021-06-14,Manitoba,1564.0
+2021-06-14,New Brunswick,33.0
+2021-06-14,Newfoundland and Labrador,25.0
+2021-06-14,Northwest Territories,0.0
+2021-06-14,Nova Scotia,69.0
+2021-06-14,Nunavut,8.0
+2021-06-14,Ontario,3523.0
+2021-06-14,Prince Edward Island,0.0
+2021-06-14,Quebec,1152.0
+2021-06-14,Saskatchewan,569.0
+2021-06-14,Yukon,17.0
+2021-06-21,Alberta,841.0
+2021-06-21,British Columbia,678.0
+2021-06-21,Canada,6295.0
+2021-06-21,Manitoba,918.0
+2021-06-21,New Brunswick,19.0
+2021-06-21,Newfoundland and Labrador,4.0
+2021-06-21,Northwest Territories,0.0
+2021-06-21,Nova Scotia,42.0
+2021-06-21,Nunavut,0.0
+2021-06-21,Ontario,2338.0
+2021-06-21,Prince Edward Island,0.0
+2021-06-21,Quebec,899.0
+2021-06-21,Saskatchewan,473.0
+2021-06-21,Yukon,83.0
+2021-06-28,Alberta,431.0
+2021-06-28,British Columbia,418.0
+2021-06-28,Canada,4555.0
+2021-06-28,Manitoba,638.0
+2021-06-28,New Brunswick,8.0
+2021-06-28,Newfoundland and Labrador,2.0
+2021-06-28,Northwest Territories,0.0
+2021-06-28,Nova Scotia,40.0
+2021-06-28,Nunavut,0.0
+2021-06-28,Ontario,1946.0
+2021-06-28,Prince Edward Island,0.0
+2021-06-28,Quebec,649.0
+2021-06-28,Saskatchewan,302.0
+2021-06-28,Yukon,121.0
