@@ -9,7 +9,7 @@ library(ggpattern)
 
 setwd('~/Projects/track_VOCs')
 
-df <- read.csv('VOC_proportions.csv', header = TRUE)
+df <- read.csv('VOC_proportions_Jan2022.csv', header = TRUE)
 
 df$week <- as.Date(df$week)
 
@@ -41,12 +41,12 @@ ggplot(df, aes(fill = group_variant, x = week, y = percentage, hue = group_varia
   ylab("Percent") +
   ggtitle("Proportion of SARS-CoV-2 samples collected and sequenced\nby variant / lineage and month in Canada")
 
-ggsave("variants_lineages_by_week_simplified.png", width = 15, height = 15, units = 'cm')
+ggsave("variants_lineages_by_week_simplified_jan_2022.png", width = 15, height = 15, units = 'cm')
 
 # French version
 df$group_variant <- factor(df$group_variant, levels=c('Alpha', 'Beta', 'Delta',
-                                                      'Gamma', 'Other', 'VOI'),
-                           labels=c('Alpha', 'Bêta', 'Delta', 'Gamma', 'Autre', 'Variant d\'intêret'))
+                                                      'Gamma', 'Omicron', 'Other', 'VOI'),
+                           labels=c('Alpha', 'Bêta', 'Delta', 'Gamma', 'Omicron', 'Autre', 'Variant d\'intêret'))
 ggplot(df, aes(fill = group_variant, x = week, y = percentage, hue = group_variant)) +
   geom_bar(position = 'fill', stat = 'identity') +
   guides(fill = guide_legend(title="Variant / souche")) +
@@ -58,4 +58,4 @@ ggplot(df, aes(fill = group_variant, x = week, y = percentage, hue = group_varia
   ylab("Pourcentage") +
   ggtitle("Proportion d'échantillions de SARS-CoV-2 recueillis et\nséquencés par variant / souche et mois au Canada")
 
-ggsave("variants_lineages_by_week_simplified_fr.png", width = 15, height = 15, units = 'cm')
+ggsave("variants_lineages_by_week_simplified_fr_jan_2022.png", width = 15, height = 15, units = 'cm')
